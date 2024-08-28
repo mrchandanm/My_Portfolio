@@ -1066,6 +1066,92 @@ Start FunFacts CSS
 
 
 /* ==========================================================================
+07. Start Resume Area
+========================================================================== */
+#resume .block-title h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+.timeline{
+    border-left: 1px solid #08d665;
+    padding: 15px 0;
+}
+.timeline-item{
+    position: relative;
+    padding: 15px 20px 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid #f6f7fe;
+    border-left: 2px solid #08d665;
+    transition: 0.3s ease-in-out;
+}
+.timeline-item:last-child{
+	margin-bottom: 0;
+}
+.timeline-item:before{
+	content: '';
+	display: inline-block;
+	position: absolute;
+	background-color: #fff;
+	border-radius: 10px;
+	width: 12px;
+	height: 12px;
+	top: 20px;
+	left: -29px;
+	border: 2px solid #08d665;
+	z-index: 2;
+}
+.item-description{
+	font-size: 13px;
+	color: #e0e0e0;
+}
+.item-description_n{
+	font-size: 10px;
+	color: #e0e0e0;
+}
+.timeline-item:after{
+	content: '';
+	display: inline-block;
+	position: absolute;
+	background-color: #08d665;
+	border-radius: 10px;
+	width: 29px;
+	height: 2px;
+	top: 25px;
+	left: -29px;
+	z-index: 1;
+}
+.timeline-item .item-title{
+    display: block;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #fff;
+}
+.timeline-item .item-period{
+	display: inline-block;
+	font-size: 12px;
+	line-height: 1.2em;
+	color: #08d665;
+	margin-bottom: 8px;
+}
+.timeline-item .item-small{
+	display: inline-block;
+	font-size: 12px;
+	line-height: 1.2em;
+	color: #fff;
+	margin-left: 5px;
+	margin-bottom: 8px;
+	padding-left: 8px;
+	border-left: 1px solid #e0e0e0;
+}
+/* ==========================================================================
+07. End Resume Area
+========================================================================== */   
+
+/* ==========================================================================
 11. Start Footer Area
 ========================================================================== */
 .footer-area{
